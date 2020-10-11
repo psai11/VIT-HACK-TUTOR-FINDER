@@ -109,10 +109,6 @@ if ($senddata) {
 		</div>
 		<div class="topnav">
 			<div class="parent2">
-		  <div class="test1 bimage1"><a href=""><img src="image/tech.png" title="IT Solution" style="border-radius: 50%;" width="42" height="42"></a></div>
-		  <div class="test2"><a href="#"><img src="image/eventmgt.png" title="Event Management" width="42" height="42" style="border-radius: 50%;"></a></div>
-		  <div class="test3"><a href="#"><img src="image/photography.png" title="Photography" width="42" height="42" style="border-radius: 50%;"></a></div>
-		  <div class="test4"><a href="#"><img src="image/teaching.png" title="Tution" style="border-radius: 50%;" width="42" height="42"></a></div>
 		  <div class="mask2"><i class="fa fa-home fa-3x"></i></div>
 		</div>
 			<a class="navlink" href="index.php" style="margin: 0px 0px 0px 100px;">Newsfeed</a>
@@ -126,8 +122,6 @@ if ($senddata) {
 				}
 
 			 ?>
-			<a class="navlink" href="#contact">Contact</a>
-			<a class="navlink" href="#about">About</a>
 			<div style="float: right;" >
 				<table>
 					<tr>
