@@ -2,6 +2,7 @@ package com.vithack.tutorfinder;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -55,6 +56,15 @@ public class MainActivity extends AppCompatActivity {
         TextView nav_mail_text = navView.findViewById(R.id.nav_mail_text);
         nav_name_text.setText(loginPrefs.getString("FullName", "Loading..."));
         nav_mail_text.setText(loginPrefs.getString("Username","Loading..."));
+
+        TextView visit_site = findViewById(R.id.visit_site);
+        visit_site.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://findtutor.infinityfreeapp.com/"));
+                startActivity(browserIntent);
+            }
+        });
     }
 
     @Override

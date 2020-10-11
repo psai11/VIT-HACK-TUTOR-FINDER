@@ -35,6 +35,10 @@ header{
 /*  The header placeholder. It is displayed when the header is fixed to the top of the
   browser window, in order to prevent the content of the page from jumping up. */
 
+.header a {
+  color: #428df5;
+}
+
 .header-placeholder{
   height: 80px;
   display: none;
